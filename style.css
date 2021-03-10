@@ -41,11 +41,11 @@ pre{
 .leftCol{
     display: flex;
 }
-.container > .aboutme, .Education, .Skill, .Title, .Project{
+.container > .aboutme, .Education, .Skill, .Title, .Project, .schoolHolder{
     border-top: 5px solid white;
 }
 
-.container > .aboutme, .Education, .Skill, .Title, .linkedIn, .WeChat, .Email, .Project{
+.container > .aboutme, .Education, .Skill, .Title, .linkedIn, .WeChat, .Email, .Project, .schoolHolder{
     margin: 4vw;
     margin-top: 0pt;
     margin-bottom: 10px;
@@ -58,6 +58,11 @@ pre{
 .textWithImg{
     display: flex;
     justify-content: space-evenly;
+}
+
+.SchoolWithImg{
+    display: flex;
+    justify-content: space-between;
 }
 
 .imageHolder{
