@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    font-size: 18pt;
+    color: #d1d1d1;
+    background-color: #131313;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-wrapper{
+    margin: 25pt;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    margin-bottom: 0px;
+}
+
+h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-top: 0px;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+pre{
+    margin-top: 0px;
+    font-size: 15pt;
+    margin-bottom: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.activeLink{
+    border-bottom: 1px solid aqua;
+}
+
+.leftCol{
+    display: flex;
+}
+.container > .aboutme, .Education, .Skill, .Title, .Project{
+    border-top: 5px solid white;
+}
+
+.container > .aboutme, .Education, .Skill, .Title, .linkedIn, .WeChat, .Email, .Project{
+    margin: 4vw;
+    margin-top: 0pt;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    padding-top: 0px;
+    color: white;
+    display:block;
+}
+
+.textWithImg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageHolder{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}
+
+.ProjectTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper > .leftCol > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+
+a:hover{
+    color:aqua;
+    /* border-bottom: 1px solid aqua; */
+}
+
+
+.aboutme a{
+    /* color: gold; */
+    text-decoration: none;
+    font-style: italic;
+    transition: color 0.5s;
+}
+.aboutme a:hover{
+    color:aqua;
+}
+
+.Skill ul{
+    list-style-type:none;
+    display: inline-flex;
+    margin: 0px;
+}
+
+.Skill li{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 0px;
+}

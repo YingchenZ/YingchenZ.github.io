@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yingchen's Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="nav-wrapper">
+            <div class="leftCol">
+                <div class="linkWrapper">
+                    <a href="index.html"><i class="fas fa-portrait"></i> Home</a>
+                </div>
+                <div class="linkWrapper activeLink">
+                    <a href="project.html"><i class="fas fa-folder"></i> Project</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="https://github.com/YingchenZ?tab=repositories"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <div class="linkWrapper">
+                    <a href="contact.html"><i class="fa fa-link" aria-hidden="true"></i> Contact</a>
+                </div>
+                <div class="linkWrapper">
+                    <!-- Add a link to my chinese page later -->
+                    <a href="index.html"><i class="fa fa-language" aria-hidden="true"></i> 中文</a>
+                </div>
+            </div>
+            <div class="rightCol">
+                <div class="brand">
+                    <div>YINGCHEN ZHOU</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ProjectCollection">
+                <div class="Project">
+                    <div class="ProjectTitle">
+                        <h2>Calorie</h2>
+                        <h2><pre>Language:  Java    Platform:   Android Phone</pre></h2>
+                    </div>
+                    <div class="textWithImg">
+                        <div class="projectDescription">
+                            <p>
+                                Calorie is the first Android App that I've ever made. This app is intended to give users
+                                a easy way to track their daily nutrition intake and provide meal recommendations accordingly.
+                                In order to use this app, users just need to input their body parameters to build their personal
+                                models and add foods to the system. After that, our app will monitor the status of protein, carbs,
+                                fat, and calorie and alert users while any one of them passes the corresponding limit. Meanwhile, our app
+                                will pop up a weight log screen once a day to let users update their weights. All weights will be stored online
+                                and presented with a plot of the weight trend on the Calender page.
+                            </p>
+                            <p>
+                                We used Edamam and Spoonacular as our food databases and use Okhttp to interact with these two APIs so that users search and add whatever they would like to eat.
+                                Our app use Bmob as our online date storage and most of data will be stored in Bmob. For some light-weight data (like users' body parameters), 
+                                we use Shared Preference and store them locally.
+                            </p>
+                        </div>
+                        <div class="imageHolder">
+                            <img src="./img/calorie.png" height="auto" width="auto" alt="calorie example"/>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="Project">
+                    <div class="ProjectTitle">
+                        <h2>Accelerated Ray Tracing</h2>
+                        <h2><pre>Language:  C++    Platform:   PC</pre></h2>
+                    </div>
+                    <div class="textWithImg">
+                        <div class="projectDescription">
+                            <p>Code base: <a href = "https://github.com/wjakob/nori">Nori</a></p>
+                            <p>
+                                This project uses Surface Area Heuristic to determine whether splitting a bounding box or not and using KD-tree to store every bounding box.
+                                This is the final project of my CS 112 (Computer Graphics). Me and my teammates spent approximately two weeks to finish this project.
+                                <p>Our project has two test:</p>
+                                <ul>
+                                    <li>Bunny (A small obj, which can be done under 150ms)</li>
+                                    <li>Ajax (A large obj, which can be done under 7s)</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="imageHolder">
+                            <img src="./img/bunny.png" height = "300" width = "300" alt="bunny example"/>
+                            <img src="./img/ajax-normals.png" height = "300" width = "300"  alt="ajax-normals example"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="Project">
+                    <div class="ProjectTitle">
+                        <h2>Monster Sudoku</h2>
+                        <h2><pre>Language:  Python    Platform:   PC</pre></h2>
+                    </div>
+                    <p>
+                        Monster Sudoku (or Mega Sudoku) is a puzzle that follows the rules of Sudoku and is played on a NxN grid, N being any positive integer including N > 9.
+                        The numbers that fill each square are selected from the first N positive integers.
+                        For display purposes, they are shown as 1, 2, ..., 9, A, B, ..., Z so that each token takes up exactly one column when printed.
+                    </p>
+                    <p><strong>Four</strong> Parameters:</p>
+                    <ul>
+                        <li>N = the length of one side of the NxN grid, also the number of distinct tokens</li>
+                        <li>P = the number of rows in each block, also the number of block columns.</li>
+                        <li>Q = the number of columns in each block, also the number of block rows.</li>
+                        <li>M = the number of values filled in from the start.</li>
+                    </ul>
+                    <p>Difficulty</p>
+                    <ul>
+                        <li>Easy: P = Q = 3, N = 9 with 7 given values</li>
+                        <li>Intermediate: P = 3, Q = 4, N = 12 with 11 given values</li>
+                        <li>Hard: P = Q = 4, N = 16 with 20 given values</li>
+                        <li>Expert: P = Q = 5, N = 25 with 30 given values</li>
+                    </ul>
+                    <p>
+                        This project is done by me and my friend. We implemented Minimum Remaining Value with Degree heuristic as a tie-breaker (MAD), Least Constraining Value (LCV) that has a specific tie-breaking mechanism
+                        and two consistency checks, Forward Checking and Norvig's Check.
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+    <script src="https://kit.fontawesome.com/42a03310d8.js" crossorigin="anonymous"></script>
+</body>
+</html>
