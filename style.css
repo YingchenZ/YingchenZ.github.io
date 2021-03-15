@@ -34,6 +34,17 @@ pre{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+
+a:hover{
+    color:aqua;
+    /* border-bottom: 1px solid aqua; */
+}
+
 .activeLink{
     border-bottom: 1px solid aqua;
 }
@@ -83,18 +94,6 @@ pre{
     text-transform: uppercase;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.8s;
-}
-
-a:hover{
-    color:aqua;
-    /* border-bottom: 1px solid aqua; */
-}
-
-
 .aboutme a{
     /* color: gold; */
     text-decoration: none;
@@ -112,7 +111,7 @@ a:hover{
 }
 
 .Skill li{
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     margin-bottom: 0px;
 }
