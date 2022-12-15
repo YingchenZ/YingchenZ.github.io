@@ -56,7 +56,6 @@ a:hover{
     border-top: 5px solid white;
 }
 
-
 .container > .aboutme, .Education, .Skill, .Title, .linkedIn, .WeChat, .Email, .Project, .schoolHolder{
     margin: 4vw;
     margin-top: 0pt;
@@ -75,7 +74,6 @@ a:hover{
 .SchoolWithImg{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
 }
 
 .imageHolder{
@@ -117,6 +115,7 @@ a:hover{
     padding: 10px;
     margin-bottom: 0px;
 }
+<<<<<<< HEAD
 
 .schoolDetail{
     margin-left: 20px;
@@ -129,3 +128,5 @@ a:hover{
     font-style:italic;
 }
 
+=======
+>>>>>>> parent of d5f6827 (add kcl section to the education part)
